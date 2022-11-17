@@ -1,0 +1,449 @@
+@import url('https://fonts.cdnfonts.com/css/brandon-grotesque-medium');
+@import url('https://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Brandon Grotesque Thin', sans-serif;
+    max-width: 3000px;
+    margin: 0, auto;
+    padding: 20px;
+}
+
+header {
+    margin-top: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo {
+    float: left;
+    margin-left: 60px;
+}
+
+header #logo img {
+    width: 300px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 70px;
+}
+
+ul li a {
+    color: #227ABC;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 40px 20px;
+    font-family: 'Brandon Grotesque Medium', sans-serif;
+}
+
+ul li a:hover {
+    color: #C4E7F0;
+
+    transition: 0.3s all;
+}
+
+ul li .signup-btn {
+    background-image: linear-gradient(to right, #4574C4, #69BDD8);
+    padding: 10px 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.signup-btn:hover {
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+ul {
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Akaju Light', sans-serif;
+    color: #2787CF;
+    font-size: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    box-shadow: #2196f3;
+}
+
+aside {
+    margin-top: 100px;
+}
+
+p {
+    font-family: 'Brandon Grotesque Thin', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+article #left-img img {
+    width: 1000px;
+}
+
+#download-btn {
+    background-image: linear-gradient(to right, #4574C4, #69BDD8);
+    padding: 20px 60px;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+#download-btn:hover {
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+#signup2-btn {
+    margin-left: 20px;
+    padding: 20px 20px;
+    border: 2px solid #69BDD8;
+    color: #69BDD8;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+#signup2-btn:hover {
+    background-color: #69BDD8;
+    color: white;
+}
+
+#background-img {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px 30px;
+    font-family: 'Akaju Light', sans-serif;
+    font-size: 50px;
+    color: #2196f3;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.boxes .box {
+    padding: 30px;
+    box-shadow: 20px 20px 8px #C4E7F0;
+    width: 50%;
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.boxes .box .box-txt {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Brandon Grotesque Medium', sans-serif;
+    font-size: 20px;
+    color: #414451;
+}
+
+#inbox-img {
+    display: flex;
+    justify-content: center;
+}
+
+#learn-more-btn {
+    display: flex;
+    justify-content: center;
+    color: #4574C4;
+
+}
+
+.boxes2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.boxes2 .box {
+    padding: 30px;
+    box-shadow: 20px 20px 8px #C4E7F0;
+    width: 100%;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.boxes2 .box .box-txt {
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Brandon Grotesque Medium', sans-serif;
+    font-size: 20px;
+    color: #414451;
+}
+
+.boxes2 .box #inbox-img {
+    float: right;
+}
+
+.boxes2 .box #learn-more-btn {
+    display: flex;
+    justify-content: left;
+    color: #4574C4;
+
+}
+
+.boxes2 .box .box-p {
+    text-align: left;
+    font-family: 'Brandon Grotesque Light', sans-serif;
+    font-size: 15px;
+    color: #414451;
+}
+
+#logo2{
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 700px;
+    height: 300px;
+}
+
+.about-us .box-container {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    height: 700px;
+    background-color: #2787CF;
+}
+
+.about-us .box-container .txt-container {
+    margin-left: 70px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Brandon Grotesque Light', sans-serif;
+
+}
+
+.about-us .box-container .txt-container .txt-p{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+h5{
+    font-size: 50px;
+}
+
+.contact-us .background-img{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.thank-you{
+    background-color: #227ABC;
+    border-radius: 30px;
+    color: white;
+    margin-top: 70px;
+    width:500px;
+    height:700px; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p-title{
+    font-family: 'Brandon Grotesque Medium', sans-serif;;
+    text-align: center;
+    font-size: 60px;
+}
+
+.p-text
+{
+    margin-top: 30px;
+    font-family: 'Brandon Grotesque Light', sans-serif;;
+    text-align: center;
+    font-size: 60px;
+}
+
+.form
+{
+    width:500px;
+    height:700px;
+    background:#e6e6e6;
+    border-radius:40px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Brandon Grotesque Light', sans-serif;
+    
+}
+
+h6{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    font-size: 40px;
+    color:#6CC2D9;
+    border-bottom:3px solid #6CC2D9
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-size: 20px;
+    font-family:'Brandon Grotesque Light', sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+
+input:focus
+{
+    border-bottom:2px solid #78788c
+}
+
+p:before{
+    font-family:'Brandon Grotesque Medium', sans-serif;
+
+    content:attr(type);
+    display:block;margin:28px 0 0;
+    font-size:30px;
+    color:#6CC2D9
+}
+button{
+    float:right;
+    padding:20px 30px;
+    margin:8px 0 0;
+    border-radius: 30px;
+    font-family:'Brandon Grotesque Light', sans-serif;
+    font-size: 20px;
+    background:0;
+    background-color: #6CC2D9;
+    color:white;
+    cursor:pointer;
+    transition:all .3s
+}
+button:hover{
+    background:#78788c;
+    color:#fff
+}
+
+.div-form{
+
+    content:'Hi';
+    bottom:-15px;
+    right:-20px;
+    background:#6CC2D9;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+
+footer .container-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+
+footer .background-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+footer .logo{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+footer .p-text{
+    font-family: 'Brandon Grotesque Light', sans-serif;
+    color: #227ABC;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.socials{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 30px;
+    font-size: 60px;
+    width: 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #3B5998;
+    color: white;
+  }
+  
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+footer .container-right{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .signup-btn {
+    background-image: linear-gradient(to right, #4574C4, #69BDD8);
+    padding: 30px 100px;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Brandon Grotesque Light', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
