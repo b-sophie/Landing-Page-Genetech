@@ -1,0 +1,17 @@
+feature : US14 : Sección de servicios de la empresa
+
+Como posible usuario quiero conocer los servicios que brindan la empresa y de que tratan para analizar mis opciones
+
+Escenario 01: Visualizar los servicios que ofrece GENETECH
+
+    Dado que el usuario está ubicado en la Landing page.
+    Cuando seleccione la sección "Our services"
+    Entonces el sistema muestra la sección como resumen sobre los servicios que brinda la empresa. 
+    
+Escenario 02: Leer mas
+
+    Dado que el usuario está ubicado en la cartegoria “Our services”.
+    Cuando seleccione la sección "Read More".
+    Entonces el sistema muestra la sección en detalle sobre los servicios que brinda la empresa. 
+
+

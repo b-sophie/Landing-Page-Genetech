@@ -215,13 +215,13 @@ h3 {
 .boxes2 .box .box-p {
     text-align: left;
     font-family: 'Brandon Grotesque Light', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: #414451;
 }
 
 #logo2{
     margin-top: 200px;
-    margin-left: 300px;
+    margin-right: 200px;
     width: 700px;
     height: 300px;
 }
@@ -244,7 +244,7 @@ h3 {
 
 .about-us .box-container .txt-container .txt-p{
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h5{
