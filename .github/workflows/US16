@@ -1,0 +1,15 @@
+feature : US16 : Sección de "About us" de la empresa
+
+Como posible usuario quiero conocer un poco mas sobre la empresa para entender el contexto
+
+Escenario 01: Ir a la seccion "About us"
+
+    Dado que el usuario está ubicado en la Landing page.
+    Cuando seleccione la sección "About us"
+    Entonces el sistema muestra la sección "About us" con las explicaciones sobre la empresa. 
+
+Escenario 02: Leer las informaciones
+
+    Dado que el usuario está ubicado en la seccion "About us".
+    Cuando el usario lees las informaciones
+    Entonces el usario entiende como se cree la empresa y quien somos nosotros.

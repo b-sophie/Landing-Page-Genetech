@@ -7,7 +7,8 @@ Escenario 01: Contactar a través del formulario con GENETECH
     Dado que el usuario se encuentra en la Landing page
     Y se dirige a las pestañas superiores
     Cuando de clic al botón de contáctanos
-    Entonces el sistema redirecciona al usuario hacia la sección donde se encuentra el formulario “GET IN TOUCH !”
+    Entonces el sistema redirecciona al usuario hacia la sección donde se encuentra el formulario 
+    “GET IN TOUCH !”
 
 Escenario 02: Completar el formulario para comunicarse con GENETECH
 
@@ -21,6 +22,7 @@ Escenario 03: Acceder a las redes sociales de GENETECH
 
     Dado que el usuario se encuentra en la sección “contáctanos”
     Cuando se despliegue para la parte inferior
-    Y vea las redes sociales de GENETECH (Facebook, Twitter, Instagram, Linkedin)"
-    Entonces al momento de dar clic en la red social de su preferencia el sistema lo redirecciona al sitio web correspondiente".
+    Y vea las redes sociales de GENETECH (Facebook, Twitter, Instagram, Linkedin)
+    Entonces al momento de dar clic en la red social de su preferencia el sistema lo redirecciona al 
+    sitio web correspondiente.
 

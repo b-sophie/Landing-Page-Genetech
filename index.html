@@ -8,8 +8,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src='main.js'></script>
 </head>
+
 
 <body>
     <header>
@@ -18,17 +18,21 @@
         </div>
 
         <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#contact-us">Contact</a></li>
             <li><a href="#" class="signup-btn">Signup</a></li>
         </ul>
     </header>
 
     <main>
         <aside>
-            <h1>The Power of DNA !</h1>
-            <p>Do you want to make the world a better place ? To help humanity get rid of the plague that is cancer ? And if we could make AI our ally ! Click on downlod or subscribe to our newsletter to know more !</p>
+            <h1>Experience the power of AI and Genetic Testing for an easy and accurate diagnosis</h1>
+            <p>Genetic testing helps estimate your chance of developing cancer in your lifetime. This genetic testing
+                cobined to our
+                powerful AI could help detect cancer better than ever before !<br><br>
+                Click on downlod or subscribe to our
+                newsletter to know more !<br> </p>
             <a id="download-btn" type="button">Download the App</a>
             <a id="signup2-btn" type="button">Signup</a>
         </aside>
@@ -39,63 +43,82 @@
         </article>
     </main>
 
-    <div class="services">
+    <div id="services">
         <img id="background-img" src="./img/backgroud.png">
         <h3>Our services</h3>
         <div class="boxes-container">
             <div class="boxes">
                 <div class="box">
-                    <img id="inbox-img" src="./img/doctor.png" />
-                    <h4 class="box-txt">FOR MEDICAL PROFESSIONALS</h4>
-                    <a id="learn-more-btn" href="#">Learn More</a>
-                </div>
-                <div class="box">
                     <img id="inbox-img" src="./img/patient.png" />
                     <h4 class="box-txt">FOR PATIENTS</h4>
-                    <a id="learn-more-btn" href="#">Learn More</a>
+                    <a id="learn-more-btn" href="#patient">Learn More</a>
+                </div>
+                <div class="box">
+                    <img id="inbox-img" src="./img/doctor.png" />
+                    <h4 class="box-txt">FOR MEDICAL PROFESSIONALS</h4>
+                    <a id="learn-more-btn" href="#doctor">Learn More</a>
                 </div>
                 <div class="box">
                     <img id="inbox-img" src="./img/insurance.png" />
                     <h4 class="box-txt">FOR INSURENCE</h4>
-                    <a id="learn-more-btn" href="#">Learn More</a>
+                    <a id="learn-more-btn" href="#insurance">Learn More</a>
                 </div>
             </div>
         </div>
         <div class="boxes-container">
             <div class="boxes2">
-                <div class="box">
-                    <img id="inbox-img" src="./img/doctor.png" />
-                    <h4 class="box-txt">FOR MEDICAL PROFESSIONALS</h4>
-                    <p class="box-p">This application can help you developp your business and attract new clients thanks to the power of AI. You can offer this service to your clients in order to work with cutting edge technology</p>
+                <div id="patient">
+                    <div class="box">
+                        <img id="inbox-img" src="./img/patient.png" />
+                        <h4 class="box-txt">FOR PATIENTS</h4>
+                        <p class="box-p">Ask your doctor to cantact us to empower yourself with the power of cutting
+                            edge
+                            technology and put all the chances on your side to fight cancer thanks to the power of AI
+                        </p>
+                    </div>
                 </div>
-                <div class="box">
-                    <img id="inbox-img" src="./img/patient.png" />
-                    <h4 class="box-txt">FOR PATIENTS</h4>
-                    <p class="box-p">Ask your doctor to cantact us to empower yourself with the power of cutting edge technology and put all the chances on your side to fight cancer thanks to the power of AI</p>
+                <div id="doctor">
+                    <div class="box">
+                        <img id="inbox-img" src="./img/doctor.png" />
+                        <h4 class="box-txt">FOR MEDICAL PROFESSIONALS</h4>
+                        <p class="box-p">This application can help you developp your business and attract new clients
+                            thanks
+                            to the power of AI. You can offer this service to your clients in order to work with cutting
+                            edge technology</p>
+                    </div>
                 </div>
-                <div class="box">
-                    <img id="inbox-img" src="./img/insurance.png" />
-                    <h4 class="box-txt">FOR INSURENCE</h4>
-                    <p class="box-p">You can buy a subscription to this service and sell it to your clients in order to reassure them that in case anythong happends to them, your working with the best technology on the market </p>
+                <div id="insurance">
+                    <div class="box">
+                        <img id="inbox-img" src="./img/insurance.png" />
+                        <h4 class="box-txt">FOR INSURENCE</h4>
+                        <p class="box-p">You can buy a subscription to this service and sell it to your clients in order
+                            to
+                            reassure them that in case anythong happends to them, your working with the best technology
+                            on
+                            the market </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="about-us">
+    <div id="about-us">
         <h3>About Us</h3>
         <div class="box-container">
             <div class="txt-container">
                 <h5>Why GENETECH ?</h5>
-                <p class="txt-p">Working in new technologies and computer programming, we wnated to find a way to connect technlogogy and the medical field in order to help as many people as possible to detect or recover from the terrible disease that is cancer.</p>
+                <p class="txt-p">Working in new technologies and computer programming, we wnated to find a way to
+                    connect technlogogy and the medical field in order to help as many people as possible to detect or
+                    recover from the terrible disease that is cancer.</p>
                 <h5>Our Story</h5>
-                <p class="txt-p">We decided to combine cutting edge image recognition with DNA analysis in order to detect traces of cancer with the highest precision.</p>
+                <p class="txt-p">We decided to combine cutting edge image recognition with DNA analysis in order to
+                    detect traces of cancer with the highest precision.</p>
             </div>
             <img id="logo2" src="./img/logo2.png">
         </div>
     </div>
 
-    <div class="contact-us">
+    <div id="contact-us">
         <h3>Contact us</h3>
         <img class="background-img" src="./img/half-blob.png">
         <div class="container">
@@ -105,13 +128,16 @@
                 <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
                 <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
                 <button>Send Message</button>
-              </form>
-              <div class="thank-you">
+            </form>
+            <div class="thank-you">
                 <p class="p-title">Thank You !</p>
                 <p class="p-text">We'll be in touch soon !</p>
-              </div>
+            </div>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-323e50df-f148-42f4-ade9-4f0a096c0e13"></div>
+
         </div>
-        
+
     </div>
 
     <footer>
@@ -133,9 +159,9 @@
                 <a href="#" class="signup-btn">DOWNLOAD THE APP</a>
             </div>
         </div>
-        
 
-        
+
+
     </footer>
 
 </body>
